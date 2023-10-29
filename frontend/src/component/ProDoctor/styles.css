@@ -1,0 +1,63 @@
+.proMain {
+  width: 100%;
+  height: auto;
+  background-color: #ebfffe;
+  margin: 0 auto;
+  padding: 10px 0px 10px 0px;
+}
+.prodiv {
+  max-width: 1024px;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.prodivider {
+  width: 49%;
+  height: auto;
+  min-width: 510px;
+}
+
+.proheading {
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  padding-top: 20px;
+}
+
+.doctorName {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #272727;
+}
+
+.prodetail{
+  font-size: .9em;
+  line-height: -0.02;
+  color: #272727;
+  font-weight: 700;
+}
+
+.bgDoctor{
+  background-image: url("../../assets/backgroundImg.jpg");
+}
+
+@media screen and (max-width:1050px) {
+ 
+  .proMain {
+    justify-content: center;
+  }.prodiv {
+    justify-content: center;
+  }.prodiv {
+    text-align: center;
+  } .prodivider {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  
+}
